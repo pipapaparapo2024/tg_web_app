@@ -8,6 +8,10 @@ export const App: FC = () => {
   // const close=()=>{
   //   tg.close()
   // }
-  return <>
-  <button onClick={()=>close()}>закрыть</button></>;
+  return (
+    <>
+      <button>закрыть</button>
+      <div className="f">sdfsgdsgfdsfhb</div>
+    </>
+  );
 };
