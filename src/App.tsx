@@ -10,6 +10,8 @@ export const App: FC = () => {
   // }
   return (
     <>
+      if (import.meta.env.MODE === 'production' && !window.Telegram?.WebApp){" "}
+      {console.error("Telegram WebApp API не загружен!")}
       <button>закрыть</button>
       <div className="f">sdfsgdsgfdsfhb</div>
     </>
